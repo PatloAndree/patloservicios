@@ -29,7 +29,7 @@ html, body {
     overflow-x: hidden;
 }
 .theme-btn {
-  background-color: var(--theme3);
+  background-color: var(--theme);
   color: var(--white);
   display: inline-block;
   font-size: 16px;
@@ -274,7 +274,7 @@ span {
   line-height: 142px;
   text-align: center;
   border-radius: 50%;
-  background-color: var(--theme);
+  background-color: var(--theme3);
   display: inline-block;
   z-index: 9;
   font-size: 24px;
@@ -408,7 +408,7 @@ span {
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
-  background-color: var(--theme);
+  background-color: var(--theme3);
   color: var(--white);
 }
 .about-wrapper .about-content .about-icon-items .icon-items .content {
@@ -1433,7 +1433,7 @@ span {
 
 .cta-wrapper {
   padding: 65px 70px;
-  background-color: var(--theme);
+  background-color: var(--theme3);
   position: relative;
   margin-top: 125px;
 }
@@ -2536,7 +2536,7 @@ span {
   width: 70px;
   height: 70px;
   line-height: 60px;
-  background-color: var(--theme);
+  background-color: var(--theme3);
   border-radius: 50%;
   text-align: center;
   color: var(--white);
@@ -2663,7 +2663,7 @@ span {
 }
 
 .header-top-section {
-  background-color: var(--header);
+  background-color: var(--bg2);
   padding: 10px 0;
   position: relative;
   z-index: 99;
@@ -2682,7 +2682,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: var(--theme);
+  background-color: var(--theme3);
   z-index: -1;
   left: 81%;
 }
@@ -3627,7 +3627,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: linear-gradient(270.07deg, #77B80F 0.07%, #00060C 99.95%);
+  background-image: linear-gradient(270.07deg, #052f92  0.07%, #00060C 99.95%);
   opacity: 0.9;
 }
 .breadcrumb-wrapper .page-heading {
@@ -3826,13 +3826,13 @@ span {
   line-height: 56px;
   text-align: center;
   background-color: transparent;
-  color: var(--theme);
+  color: var(--white);
   border-radius: 50%;
-  border: 1px solid var(--theme);
+  border: 1px solid var(--white);
   transition: all 0.4s ease-in-out;
 }
 .array-button .array-prev:hover {
-  background-color: var(--theme);
+  background-color: var(--theme3);
   color: var(--white);
 }
 .array-button .array-next {
@@ -3840,14 +3840,14 @@ span {
   height: 56px;
   line-height: 56px;
   text-align: center;
-  background-color: var(--theme);
+  background-color: var(--theme3);
   color: var(--white);
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
 }
 .array-button .array-next:hover {
   background-color: var(--white);
-  color: var(--theme);
+  color: var(--theme3);
 }
 
 .mt-10 {
@@ -4943,7 +4943,7 @@ span {
 }
 .news-card-items .news-image .post-date {
   padding: 12px 24px;
-  background-color: var(--theme);
+  background-color: var(--theme3);
   position: absolute;
   bottom: 40px;
   left: 0;
@@ -4983,7 +4983,7 @@ span {
   font-weight: 500;
 }
 .news-card-items .news-content ul li i {
-  color: var(--theme);
+  color: var(--theme3);
   margin-right: 5px;
 }
 .news-card-items .news-content h3 {
@@ -5602,7 +5602,7 @@ span {
 }
 .pricing-wrapper .section-title-area .nav .nav-link.active {
   position: relative;
-  background-color: var(--theme);
+  background-color: var(--theme3);
   color: var(--white);
   border: 1px solid transparent;
 }
@@ -5888,7 +5888,7 @@ input.main-search-input::placeholder {
   transition: all 0.4s ease-in-out;
 }
 .project-items .project-image .project-content p {
-  color: var(--theme);
+  color: var(--theme3);
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -6022,7 +6022,7 @@ input.main-search-input::placeholder {
   border-radius: 50%;
   background-color: rgba(56, 75, 255, 0.1);
   display: inline-block;
-  color: var(--theme);
+  color: var(--theme3);
   transition: all 0.4s ease-in-out;
   position: absolute;
   bottom: -20px;
@@ -6038,7 +6038,7 @@ input.main-search-input::placeholder {
   transform: rotate(0);
 }
 .project-wrapper .project-items.style-2 .project-content .arrow-icon-2:hover {
-  background-color: var(--theme);
+  background-color: var(--theme3);
 }
 .project-wrapper .project-items.style-2 .project-content .arrow-icon-2:hover i {
   color: var(--white);
@@ -6208,7 +6208,7 @@ input.main-search-input::placeholder {
   }
 }
 .section-title span {
-  color: var(--theme);
+  color: var(--theme3);
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 500;
