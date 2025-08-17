@@ -4591,9 +4591,9 @@ span {
 }
 
 .text-slider {
-  font-size: 50px;
-  height: 100px;
-  line-height: 90px;
+  font-size: 20px;
+  height: 70px;
+  line-height: 80px;
   font-weight: 700;
   text-transform: capitalize;
   color: var(--white);
