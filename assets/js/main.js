@@ -30,6 +30,28 @@ Js TABLE OF CONTENTS
 
     $(document).ready(function() {
 
+
+        console.log("prueba");
+         const chatWidget = document.getElementById("chatWidget");
+         const whatsappButton = document.getElementById("whatsappButton");
+         const closeButton = document.getElementById("closeButton");
+
+         // Muestra el widget de chat cuando se hace clic en el botón de WhatsApp
+         whatsappButton.addEventListener("click", () => {
+           chatWidget.style.display = "block";
+            console.log("click 1");
+
+         });
+
+         // Oculta el widget de chat cuando se hace clic en el botón de cerrar
+         closeButton.addEventListener("click", () => {
+           chatWidget.style.display = "none";
+            console.log("click 2");
+
+         });
+        console.log("prueba2");
+
+
         //>> Mobile Menu Js Start <<//
         $('#mobile-menu').meanmenu({
             meanMenuContainer: '.mobile-menu',
@@ -611,7 +633,8 @@ Js TABLE OF CONTENTS
     }
 
     loader();
-   
+
+
 
 })(jQuery); // End jQuery
 
