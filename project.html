@@ -29,10 +29,19 @@
         <link rel="stylesheet" href="assets/css/nice-select.css">
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="assets/css/main.css">
+
+        <link rel="stylesheet" href="assets/css/gallery.css">
+
+
+        <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
     </head>
     <body>
 
-         <!-- Preloader Start -->
+            <!-- Preloader Start -->
         <div id="preloader" class="preloader">
             <div class="animation-preloader">
                 <div class="spinner">                
@@ -54,7 +63,7 @@
                         O
                     </span>
                 </div>
-                <p class="text-center">Loading</p>
+                <p class="text-center">Cargando</p>
             </div>
             <div class="loader">
                 <div class="row">
@@ -86,7 +95,7 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="index.html">
-                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                    <img src="assets/img/logo/loge.png" alt="logo-img">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -96,7 +105,7 @@
                             </div>
                         </div>
                         <p class="text d-none d-lg-block">
-                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                            Desarrollo web | Diseño responsive | Sistemas multiplataforma | Pagos online | Integración con IA | Deep Learning
                         </p>
                         <div class="mobile-menu fix mb-3"></div>
                         <div class="offcanvas__contact">
@@ -107,7 +116,7 @@
                                         <i class="fal fa-map-marker-alt"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                        <a target="_blank" href="#">Lima</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -115,7 +124,7 @@
                                         <i class="fal fa-envelope"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="mailto:info@azent.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                        <a href="mailto:Torresandreemail@gmail.com"><span class="mailto:info@example.com">Torresandreemail@gmail.com</span></a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -123,7 +132,7 @@
                                         <i class="fal fa-clock"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                        <a target="_blank" href="#">Lun-Sáb, 09am -05pm</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -131,19 +140,17 @@
                                         <i class="far fa-phone"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:+11002345909">+11002345909</a>
+                                        <a href="tel:+51941815133">+51941815133</a>
                                     </div>
                                 </li>
                             </ul>
-                            <div class="header-button mt-4">
+                            <!-- <div class="header-button mt-4">
                                 <a href="contact.html" class="theme-btn text-center">
-                                    <span>get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
+                                    <span>Contactar<i class="fa-solid fa-arrow-right-long"></i></span>
                                 </a>
-                            </div>
+                            </div> -->
                             <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            
                                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
@@ -171,10 +178,8 @@
                         <div class="top-right">
                             <div class="social-icon d-flex align-items-center">
                                 <span>Siguenos en:</span>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                               
+                                <a href="www.linkedin.com/in/andree-torres-lópez" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -204,22 +209,30 @@
                                                 </li>
                         
                                                 <li>
-                                                    <a href="about.html">Acerca</a>
+                                                    <!-- <a href="about.html">Acerca</a> -->
+                                                    <a href="#acerca">Acerca</a>
+
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">
+                                                    <!-- <a href="service.html"> -->
+                                                    <a href="#servicios">
+
                                                         Servicios
                                                     </a>
                                                    
                                                 </li>
                                                 <li>
-                                                    <a href="news.html">
+                                                    <!-- <a href="project.html"> -->
+                                                    <a href="#proyectos">
+
                                                         Proyectos
                                                     </a>
                                                 </li>
                                                 
                                                 <li>
-                                                    <a href="contact.html">Contacto</a>
+                                                    <!-- <a href="contact.html">Contacto</a> -->
+                                                    <a href="#precios"">Precios</a>
+
                                                 </li>
                                             </ul>
                                         </nav>
@@ -260,7 +273,7 @@
         </div>
 
         <!--<< Breadcrumb Section Start >>-->
-        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.jpg');">
+        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/frame3.png');">
             <div class="border-shape">
                 <img src="assets/img/element.png" alt="shape-img">
             </div>
@@ -269,102 +282,273 @@
             </div>
             <div class="container">
                 <div class="page-heading">
-                    <h1 class="wow fadeInUp" data-wow-delay=".3s">Project</h1>
+                    <h1 class="wow fadeInUp" data-wow-delay=".3s">Proyectos</h1>
                     <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                         <li>
                             <a href="index.html">
-                                Home
+                                Inicio
                             </a>
                         </li>
                         <li>
                             <i class="fas fa-chevron-right"></i>
                         </li>
                         <li>
-                            Project
+                            Proyectos
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Project Section Start -->
-        <section class="project-section section-padding fix">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="project-items">
-                            <div class="project-image">
-                                <img src="assets/img/project/01.jpg" alt="project-img">
-                                <div class="project-content">
-                                    <p>solar energy</p>
-                                    <h4>
-                                        <a href="project-details.html">Solar Energy system</a>
-                                    </h4>
-                                </div>
+
+        <section class="project-section section-padding fix section-bg">
+
+            <div class="container mb-4 ">
+                <div class="heading-left">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <h4 class="sub-heading">Proyectos</h4>
+                            <h2 class="heading">Proyectos Completados </h2>
+                        </div>
+                        <div class="col-xl-6">
+                            <!-- End Mixitup Nav-->
+                            <div class="mix-item-menu">
+                                <button class="active" data-filter="*">Todos</button>
+                                <button data-filter=".development">Desarrollo</button>
+                                <button data-filter=".design">Diseño</button>
                             </div>
+                            <!-- End Mixitup Nav-->
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="project-items">
-                            <div class="project-image">
-                                <img src="assets/img/project/02.jpg" alt="project-img">
-                                <div class="project-content">
-                                    <p>solar energy</p>
-                                    <h4>
-                                        <a href="project-details.html">Solar Energy system</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="project-items">
-                            <div class="project-image">
-                                <img src="assets/img/project/03.jpg" alt="project-img">
-                                <div class="project-content">
-                                    <p>solar energy</p>
-                                    <h4>
-                                        <a href="project-details.html">Solar Energy system</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="project-items">
-                            <div class="project-image">
-                                <img src="assets/img/project/04.jpg" alt="project-img">
-                                <div class="project-content">
-                                    <p>solar energy</p>
-                                    <h4>
-                                        <a href="project-details.html">Shining a Light</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="project-items">
-                            <div class="project-image">
-                                <img src="assets/img/project/10.jpg" alt="project-img">
-                                <div class="project-content">
-                                    <p>solar energy</p>
-                                    <h4>
-                                        <a href="project-details.html">Diversifying Your Solar</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="project-items">
-                            <div class="project-image">
-                                <img src="assets/img/project/11.jpg" alt="project-img">
-                                <div class="project-content">
-                                    <p>solar energy</p>
-                                    <h4>
-                                        <a href="project-details.html">The Benefits of Solar</a>
-                                    </h4>
+                </div>
+            </div>
+            
+
+            <div class="container mt-3">
+                <div class="portfolio-style-two-items">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="magnific-mix-gallery masonary">
+                                <div id="portfolio-grid" class="portfolio-items colums-2">
+                                    <!-- Single Item -->
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/onthego.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/onthego.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Item -->
+                                     <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/life2.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/life.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/system.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/system2.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/image16.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/image17.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                     <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/pantalla.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/pantalla.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                     <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/medical.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/medical.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/Frame2.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/Frame2.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/Frame3.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/Frame3.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/anuncio.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/anuncio.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/almacen1.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/almacen2.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/help2.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/help1.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/post.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/post.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                     <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/reactventa2.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/reactventa.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pf-item design development" data-wow-delay=".3s">
+                                        <div class="project-items">
+                                            <div class="project-image thumb">
+                                                 <a href="assets/img/project/logo_empresa.png" class="item popup-link"><i class="fa fa-plus"></i></a> 
+                                                <img src="assets/img/project/logo_empresa.png" alt="project-img">
+                                                <div class="project-content">
+                                                    <p>solar energy</p>
+                                                    <h4>
+                                                        <a href="project-details.html"></a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                   
+
+                                    <!-- End Single Item -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -373,8 +557,41 @@
             </div>
         </section>
 
-        <!--<< Footer Section Start >>-->
-        <footer class="footer-section footer-bg">
+        
+        <div class="chat-container" id="chatWidget">
+            <div class="chat-header">
+                <div class="profile-pic">
+                    <img src="assets/img/about/foto.png" alt="Jane Doe">
+                    <div class="online-status"></div>
+                </div>
+                <div class="user-info">
+                    <h3 class="user-name text-white">Andree Torres</h3>
+                    <span class="status">En linea</span>
+                </div>
+                <div class="close-icon" id="closeButton">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="chat-body">
+                <div class="message-bubble">
+                    <p> Hola 👋 👋</p>
+                    <p>¿Te puedo ayudar en algo?</p>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" placeholder="Escribe tu mensaje..." class="text-dark" value="Hola me gustaría saber más !" readonly>
+                <a class="send-button" href="https://api.whatsapp.com/send?phone=51941815133&text=Hola%20Andree,%20me%20gustaría%20saber%20más%20sobre%20los%20servicios%20de%20desarrollo%20web" target="_blank">
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="whatsapp-icon" id="whatsappButton">
+            <i class="fab fa-whatsapp"></i>
+            <div class="notification-dot"></div>
+        </div>
+
+     <footer class="footer-section footer-bg">
             <div class="container">
                 <div class="contact-info-area">
                     <div class="contact-info-items wow fadeInUp" data-wow-delay=".3s">
@@ -385,9 +602,9 @@
                             </svg>                                
                         </div>
                         <div class="content">
-                            <p>Call Us 7/24</p>
+                            <p>Telefono</p>
                             <h3>
-                                <a href="tel:+2085550112">+208-555-0112</a>
+                                <a href="tel:+2085550112">+51941815133</a>
                             </h3>
                         </div>
                     </div>
@@ -400,9 +617,9 @@
                             </svg>                                            
                         </div>
                         <div class="content">
-                            <p>Make a Quote</p>
+                            <p>Correo</p>
                             <h3>
-                                <a href="mailto:infotech@gmail.com">Solar@gmail.com</a>
+                                <a href="mailto:infotech@gmail.com">Torresandreemail@gmail.com</a>
                             </h3>
                         </div>
                     </div>
@@ -415,9 +632,9 @@
                                                             
                         </div>
                         <div class="content">
-                            <p>Location</p>
+                            <p>Ubicación</p>
                             <h3>
-                                4517 Washington ave.
+                                Lima, Perú
                             </h3>
                         </div>
                     </div>
@@ -433,20 +650,15 @@
                             <div class="single-footer-widget">
                                 <div class="widget-head">
                                     <a href="index.html">
-                                        <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                        <img src="assets/img/logo/logowhite.png" alt="logo-img">
                                     </a>
                                 </div>
                                 <div class="footer-content">
                                     <p>
-                                        Phasellus ultricies aliquam volutpat 
-                                        ullamcorper laoreet neque, a lacinia
-                                        curabitur lacinia mollis
+                                        Desarrollo web y sistemas a medida, con un enfoque en la calidad y la satisfacción del cliente.
                                     </p>
                                     <div class="social-icon d-flex align-items-center">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
                                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -454,119 +666,74 @@
                         <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
                             <div class="single-footer-widget">
                                 <div class="widget-head">
-                                    <h3>Quick Links</h3>
+                                    <h3>Enlaces rápidos</h3>
                                 </div>
                                 <ul class="list-area">
                                     <li>
                                         <a href="about.html">
                                             <i class="fa-solid fa-chevron-right"></i>
-                                            Solar About
+                                            Proyectos
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="service.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Our Services
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="news.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Our Blogs
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="faq.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            FAQ’S
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Contact Us
-                                        </a>
-                                    </li>
+                                    
+                                 
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
                             <div class="single-footer-widget style-margin">
                                 <div class="widget-head">
-                                    <h3>Services</h3>
+                                    <h3>Servicios</h3>
                                 </div>
                                 <ul class="list-area">
                                     <li>
                                         <a href="service-details.html">
                                             <i class="fa-solid fa-chevron-right"></i>
-                                            Consultancy
+                                            Desarrollo Web
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="service-details.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Solar System
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Solar Panel
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            Style Guide
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                            License
-                                        </a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                             <div class="single-footer-widget style-margin">
                                 <div class="widget-head">
-                                    <h3>Recent Posts</h3>
+                                    <h3>Proyectos recientes</h3>
                                 </div>
                                 <div class="recent-post-area">
                                     <div class="recent-post-items">
                                         <div class="thumb">
-                                            <img src="assets/img/news/pp1.jpg" alt="post-img">
+                                            <img src="assets/img/news/pp2.png" alt="post-img">
                                         </div>
                                         <div class="content">
                                             <ul class="post-date">
                                                 <li>
                                                     <i class="fa-solid fa-calendar-days me-2"></i>
-                                                    20 Feb, 2025
+                                                    20 May, 2025
                                                 </li>
                                             </ul>
                                             <h6>
-                                                <a href="news-details.html">
-                                                    2021 Batterman Award<br> honorsBrad Burkhart
+                                                <a href="project.html">
+                                                    App de predicción de fallas
                                                 </a>
                                             </h6>
                                         </div>
                                     </div>
                                     <div class="recent-post-items mb-0">
                                         <div class="thumb">
-                                            <img src="assets/img/news/pp2.jpg" alt="post-img">
+                                            <img src="assets/img/news/pp1.png" alt="post-img">
                                         </div>
                                         <div class="content">
                                             <ul class="post-date">
                                                 <li>
                                                     <i class="fa-solid fa-calendar-days me-2"></i>
-                                                    15 Dec, 2025
+                                                    15 Ago, 2025
                                                 </li>
                                             </ul>
                                             <h6>
-                                                <a href="news-details.html">
-                                                    2021 Batterman Award<br> honorsBrad Burkhart
+                                                <a href="project.html">
+                                                    Sistema web PLan verde
                                                 </a>
                                             </h6>
                                         </div>
@@ -581,17 +748,17 @@
                 <div class="container">
                     <div class="footer-wrapper d-flex align-items-center justify-content-between">
                         <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-                            © All Copyright 2025 by <a href="index.html">Solar</a>
+                            © Todos los derechos de autor 2025 por <a href="index.html"> PATLO</a>
                         </p>
                         <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
                             <li>
                                 <a href="contact.html">
-                                    Terms & Condition
+                                    Términos y condición
                                 </a>
                             </li>
                             <li>
                                 <a href="contact.html">
-                                    Privacy Policy
+                                    política de privacidad
                                 </a>
                             </li>
                         </ul>
@@ -625,5 +792,14 @@
         <script src="assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
+
+        <script src="assets/js/YTPlayer.min.js"></script>
+
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+
+        
+
     </body>
 </html>
